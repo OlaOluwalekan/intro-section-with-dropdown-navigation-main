@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <!-- PAGE HEADER CONTAINING LOGO AND MENU ITEMS -->
+    <header>
+      <img src="./images/logo.svg" alt="">
+      <div class="overlay"></div>
+      <menu class="menu-container">
+        <div class="close-menu"><img src="./images/icon-close-menu.svg" alt=""></div>
+        <section class="menu-left">
+          <div class="feature menu-item">
+            <div class="feature-main">
+              Features
+              <img src="./images/icon-arrow-down.svg" alt="">
+            </div>
+            <div class="feature-drop-down">
+              <article>
+                <img src="./images/icon-todo.svg" alt=""> Todo List
+              </article>
+              <article>
+                <img src="./images/icon-calendar.svg" alt=""> Calendar
+              </article>
+              <article>
+                <img src="./images/icon-reminders.svg" alt=""> Reminders
+              </article>
+              <article>
+                <img src="./images/icon-planning.svg" alt=""> Planning
+              </article>
+            </div>
+          </div>
+
+          <div class="company menu-item">
+            <div class="company-main">
+              Company
+              <img src="./images/icon-arrow-down.svg" alt="">
+            </div>
+            <div class="company-drop-down">
+              <article>History</article>
+              <article>Our Team</article>
+              <article>Blog</article>
+            </div>
+          </div>
+
+          <div class="careers menu-item">Careers</div>
+          <div class="about menu-item">About</div>
+        </section>
+
+        <section class="menu-right">
+          <button type="submit">Login</button>
+          <button type="submit">Register</button>
+        </section>
+      </menu>
+
+      <img src="./images/icon-menu.svg" alt="" class="open-menu">
+    </header>
+    <!-- END OF PAGE HEADER -->
+
+    <!-- PAGE MAIN CONTENT -->
+    <section class="page-content">
+      <img src="./images/image-hero-mobile.png" alt="" class="main-image">
+      <div class="text-content">
+        <h2 class="content-head">Make remote work</h2>
+        <p class="content-para">
+          Get your team in sync, no matter your location. Streamline processes. create team rituals, and watch
+          productivity soar
+        </p>
+        <button type="submit">Learn more</button>
+        <footer>
+          <img src="./images/client-databiz.svg" alt="" class="footer1">
+          <img src="./images/client-audiophile.svg" alt="" class="footer2">
+          <img src="./images/client-meet.svg" alt="" class="footer3">
+          <img src="./images/client-maker.svg" alt="" class="footer4">
+        </footer>
+      </div>
+    </section>
+    <!-- END OF PAGE MAIN CONTENT -->
+
+  </main>
+
+  <!-- Features
+  Company
+  Careers
+  About
+
+  Login
+  Register
+
+  Make remote work
+
+  Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.
+
+  Learn more
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
